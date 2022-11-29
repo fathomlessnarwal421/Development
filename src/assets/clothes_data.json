@@ -1,0 +1,118 @@
+[
+    {
+        "name": "Black Turtleneck",
+        "type": "tops",
+        "price": 7.99,
+        "rating": 4.5,
+        "image": "images/turtleneck.jpg"
+        
+
+    }, 
+    {
+        "name": "Black Skinny Jeans", 
+        "type": "bottoms",
+        "price": 25.99,
+        "rating": 3.5,
+        "image": "images/black_jeans.jpg"
+    },
+    {
+        "name": "Blue Collared Shirt", 
+        "type": "tops",
+        "price": 24.99,
+        "rating": 3,
+        "image": "images/blue_collar.jpg"
+    },
+    {
+        "name": "Blue Stone Necklace", 
+        "type": "accessories",
+        "price": 10.99,
+        "rating": 4.5,
+        "image": "images/blue_stone_necklace.jpg"
+    },
+    {
+        "name": "Gold Circle Necklace", 
+        "type": "accessories",
+        "price": 29.99,
+        "rating": 4,
+        "image": "images/circle_necklace.jpg"
+    },
+    {
+        "name": "Gold Heart Earrings", 
+        "type": "accessories",
+        "price": 19.99,
+        "rating": 4.9,
+        "image": "images/gold_hearts.jpeg"
+    },
+    {
+        "name": "Black Leather Pants", 
+        "type": "bottoms",
+        "price": 34.99,
+        "rating": 2,
+        "image": "images/leather_pants.jpg"
+    },
+    {
+        "name": "Blue Skinny Jeans", 
+        "type": "bottoms",
+        "price": 24.99,
+        "rating": 2.5,
+        "image": "images/light_jeans.jpg"
+    },
+    {
+        "name": "Moon Earrings", 
+        "type": "accessories",
+        "price": 6.99,
+        "rating": 3,
+        "image": "images/moon_earrings.jpg"
+    },
+    {
+        "name": "Pearl Necklace", 
+        "type": "accessories",
+        "price": 16.99,
+        "rating": 4,
+        "image": "images/pearl_necklace.jpg"
+    },
+    {
+        "name": "Pink Collared Shirt", 
+        "type": "tops",
+        "price": 14.99,
+        "rating": 4.7,
+        "image": "images/pink_collar.jpg"
+    },
+    {
+        "name": "Yellow Flower Earrings", 
+        "type": "accessories",
+        "price": 5.99,
+        "rating": 5,
+        "image": "images/yellow_flower.jpg"
+    },
+    {
+        "name": "Red T-Shirt", 
+        "type": "tops",
+        "price": 3.99,
+        "rating": 5,
+        "image": "images/red_tshirt.jpg"
+    },
+    {
+        "name": "Green Flannel Shirt", 
+        "type": "tops",
+        "price": 14.99,
+        "rating": 4.9,
+        "image": "images/green_flannel.jpg"
+    },
+    {
+        "name": "White Pleated Skirt", 
+        "type": "bottoms",
+        "price": 14.99,
+        "rating": 4.5,
+        "image": "images/white_pleat_skirt.jpg"
+    },
+    {
+        "name": "Pink Floral Skirt", 
+        "type": "bottoms",
+        "price": 24.99,
+        "rating": 5,
+        "image": "images/pink_floral_skirt.jpg"
+    }
+
+
+]
