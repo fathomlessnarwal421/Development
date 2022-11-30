@@ -13,6 +13,8 @@ The layout prioritizes the clothing items in the center of the screen. The cart 
 The state variables used were clothesItems, sortBy, type, price, cartItems, and cartData. Both sortBy and type are variables that keep track of the filtering and sorting option that the user has selected. The cart component uses price, cartItems, and cartData to keep track of what should be displayed in the cart. cartItems is 
 
 ### How Data is Passed Down Through Components
+The items in clothesItems are passed to the ClothesItem component and displayed from there. Similarly, the price, cartData, and cartItems variables are passed to the cart component and displayed from there. 
 
 ### How the User Triggers State Changes
+The user triggers state changes by changing the options on the sort by drop down or the filtering buttons. These will change the state of clothesItems and filter or sort accordingly depending on the options selected. The user also triggers state changes by clicking the add to cart button or clicking the + - buttons in the cart to change the number of the items in the cart. This updates the cart items as well as the price. 
 
