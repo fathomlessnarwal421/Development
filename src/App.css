@@ -43,6 +43,9 @@ button {
     align-self: flex-end;
 }
 
+.top_row {
+    height: 80%;
+}
 
 .menu_item{
     /* padding: 20px; */
@@ -50,7 +53,7 @@ button {
     /* width: 400px;
     height: 600px; */
     width: 40%;
-    height: 600px;
+    height: 500px;
     /* display: flex; */
     border-style: groove;
     margin-top: 10px;

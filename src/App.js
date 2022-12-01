@@ -1,6 +1,8 @@
 import "./App.css";
 import { useState, useReducer } from "react";
 import clothesData from "./assets/clothes_data.json";
+import Menu from "./Menu"
+import Cart from "./Cart"
 
 /* ####### DO NOT TOUCH -- this makes the image URLs work ####### */
 clothesData.forEach((item) => {
@@ -200,18 +202,20 @@ function App() {
       <div class="Menu">
       {clothesItems.map((item, index) => ( // TODO: map bakeryData to BakeryItem components
 
-      <div class="menu_item">
-        <h3>{item.name}</h3>
-        <img src={item.image}/>
-        <div class="bottom_row">
+        <Menu item={item} button={addToCart}/>
+        /* <div class="bottom_row">
         <p>{item.price}</p>
         <button onClick={() => addToCart(item, "+")} class="button">Add to cart</button>
-        </div>
-        </div>
+        </div> */
       ))}
       </div>
-
-      <div class="Cart">
+      <Cart 
+      price={price}
+      cartData={cartData}
+      cartItems={cartItems}
+      addButton={addToCart}
+      minusButton={addToCart}/>
+      {/* <div class="Cart">
         <h2>Cart</h2>
         <div class="cart_item">
           <p class="thick">Total: </p>
@@ -225,7 +229,7 @@ function App() {
           <button onClick={() => addToCart(item, "-")}>-</button>
           </div>
         ))}
-      </div>
+      </div> */}
       </div>
     </div>
   );
